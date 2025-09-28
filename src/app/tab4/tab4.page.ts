@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { IonHeader, IonToolbar, IonContent } from '@ionic/angular/standalone';
-import { IonIcon, IonFab, IonFabButton, IonButtons, IonMenuButton } from '@ionic/angular/standalone';
+import { IonIcon, IonFab, IonFabButton, IonButtons, IonMenuButton, IonCard, IonCardHeader, IonCardContent } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import { add } from 'ionicons/icons';
 import { triangle, ellipse, square, pawOutline, medkitOutline, logoWhatsapp, footballOutline, fastFoodOutline } from 'ionicons/icons';
@@ -9,7 +9,7 @@ import { ExploreContainerComponent } from '../explore-container/explore-containe
   selector: 'app-tab4',
   templateUrl: 'tab4.page.html',
   styleUrls: ['tab4.page.scss'],
-  imports: [IonHeader, IonToolbar, IonContent, ExploreContainerComponent, IonIcon, IonFab, IonFabButton, IonButtons, IonMenuButton],
+  imports: [IonHeader, IonToolbar, IonContent, ExploreContainerComponent, IonIcon, IonFab, IonFabButton, IonButtons, IonMenuButton, IonCard, IonCardHeader, IonCardContent],
 })
 export class Tab4Page {
   constructor() {
