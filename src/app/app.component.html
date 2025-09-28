@@ -2,28 +2,32 @@
   <ion-split-pane contentId="main-content">
   <ion-menu contentId="main-content" type="overlay">
     <ion-content>
-     <ion-list-header id="inbox-list"><strong><h1>LUCiFRAi - webDevelopment.</h1></strong></ion-list-header>
-     <ion-note>Desarrollo Web <b>económico</b> e <b>inteligente</b>.</ion-note>
-        <ion-menu-toggle auto-hide="false">
-          <ion-item class="submit-btn" routerLink="/tabs/tab1" routerDirection="forward">
-            <ion-label>INICIO</ion-label>
-            <ion-icon slot="start" size="large" aria-hidden="true" name="home-sharp"></ion-icon>
-          </ion-item>
-          <ion-item routerLink="/tabs/tab2" routerDirection="forward">
-            <ion-label>SERVICIOS</ion-label>
-            <ion-icon slot="start" size="large" aria-hidden="true" name="construct-sharp"></ion-icon>
-          </ion-item>
-          <ion-item routerLink="/tabs/tab3" routerDirection="forward">
-            <ion-label>PRECIOS</ion-label>
-            <ion-icon slot="start" size="large" aria-hidden="true" name="diamond-sharp"></ion-icon>
-          </ion-item>
-          <ion-item routerLink="/tabs/tab4" routerDirection="forward">
-            <ion-label>CONTACTO</ion-label>
-            <ion-icon slot="start" size="large" aria-hidden="true" name="mail-sharp"></ion-icon>
-          </ion-item>
-        </ion-menu-toggle> 
-    </ion-content>
-  </ion-menu>
-  <ion-router-outlet id="main-content"></ion-router-outlet>
-  </ion-split-pane>
+     <strong><b><h1>LUCiFRAi</h1></b></strong>
+     <b><a style="font-size: 13px; color: rgb(110, 110, 230)">Desarrollo Web</a></b><strong><b><a style="color: rgb(247,253,247)"> económico</a></b></strong><b><a style="font-size: 13px; color: rgb(110, 110, 230)"> e</a></b><strong><b><a style="color: rgb(247,253,247)"> inteligente</a></b></strong><b><a style="font-size: 13px; color: rgb(110, 110, 230)">.</a></b>
+     <br>
+     <br>
+     <br>
+     <br>
+     <ion-menu-toggle auto-hide="false">
+      <ion-item class="submit-btn" routerLink="/tabs/tab1" routerDirection="forward">
+        <ion-label>INICIO</ion-label>
+        <ion-icon slot="start" size="large" aria-hidden="true" name="home-outline"></ion-icon>
+      </ion-item>
+      <ion-item routerLink="/tabs/tab2" routerDirection="forward">
+        <ion-label>SERVICIOS</ion-label>
+        <ion-icon slot="start" size="large" aria-hidden="true" name="construct-outline"></ion-icon>
+      </ion-item>
+      <ion-item routerLink="/tabs/tab3" routerDirection="forward">
+        <ion-label>PRECIOS</ion-label>
+        <ion-icon slot="start" size="large" aria-hidden="true" name="diamond-outline"></ion-icon>
+      </ion-item>
+      <ion-item routerLink="/tabs/tab4" routerDirection="forward">
+        <ion-label>CONTACTO</ion-label>
+        <ion-icon slot="start" size="large" aria-hidden="true" name="mail-outline"></ion-icon>
+      </ion-item>
+    </ion-menu-toggle>
+  </ion-content>
+</ion-menu>
+<ion-router-outlet id="main-content"></ion-router-outlet>
+</ion-split-pane>
 </ion-app>
